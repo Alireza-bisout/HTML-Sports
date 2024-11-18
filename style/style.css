@@ -1,0 +1,219 @@
+@import url('resetCss.css');
+
+/* import font */
+
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vaizr.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: vazirBold;
+    src: url('../fonts/vazir-bold.eot');
+    src: url('../fonts/vazir-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir-bold.woff2') format('woff2'), url('../fonts/vazir-bold.woff') format('woff'), url('../fonts/vazir-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: #7bbd48;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 53px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 35px;
+    color: #dbdbdb;
+    margin: 30px 0 50px 0;
+
+}
+
+/* body */
+
+
+body {
+    background-color: #e9e9e9;
+    font-family: vazirNormal;
+}
+
+/* header */
+
+#header {
+    position: relative;
+}
+
+#header .bg-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../image & icon/image/OIP.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(1px) brightness(56%) saturate(103%) contrast(128%) invert(24%);
+    -webkit-filter: blur(1px) brightness(56%) saturate(103%) contrast(128%) invert(24%);
+    -moz-filter: blur(1px) brightness(56%) saturate(103%) contrast(128%) invert(24%);
+    border-radius: 0 0 30px 30px;
+    z-index: -1;
+
+}
+
+#header .texts-header {
+    padding: 150px 0;
+    color: #ffffff;
+}
+
+#header .texts-header h1 {
+    font-size: 40px;
+}
+
+#header .texts-header button {
+    padding: 20px 40px 0 40px;
+    border-radius: 20px;
+    border: none;
+    transition: 0.3s;
+    background-color: #7bbd48;
+    color: #e9e9e9;
+}
+
+
+#header .texts-header button svg {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+#header .texts-header button:hover svg {
+    opacity: 1;
+    margin: 10px 0;
+}
+
+/* box demo */
+
+
+#demo h1 {
+    color: #3c4354;
+}
+
+#demo p {
+    color: #7c7c7c;
+}
+
+#demo .demo-box {
+    width: 100%;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    background-color: #ffffff;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+#demo .demo-box:hover {
+    box-shadow: 0px -1px 15px -2px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px -1px 15px -8px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px -1px 15px -8px rgba(0, 0, 0, 1);
+    transform: translateY(-5px);
+}
+
+#demo .demo-box:hover {
+    border-radius: 10px;
+}
+
+#demo .demo-box img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    transition: 0.3s;
+}
+
+#demo .demo-box h4 {
+    color: #3c4354;
+    font-size: 20px;
+    font-family: vazirNormal;
+    padding: 25px 0;
+}
+
+
+/* Features */
+
+#features {
+    background-color: #f0f0f0;
+}
+
+#features h1 {
+    color: #3c4354;
+}
+
+#features p {
+    color: #7c7c7c;
+}
+
+
+#features .features-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#features .features-box:hover {
+    box-shadow: 0px -1px 15px -2px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px -1px 15px -8px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px -1px 15px -8px rgba(0, 0, 0, 1);
+    transform: translateY(-5px);
+}
+
+#features h4 {
+    margin-top: 20px;
+    color: #3c4354;
+}
+
+/* Footer */
+
+#footer {
+    position: relative;
+}
+
+
+#footer .bg-footer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../image & icon/image/OIP.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(1px) brightness(56%) saturate(103%) contrast(128%) invert(24%);
+    -webkit-filter: blur(1px) brightness(56%) saturate(103%) contrast(128%) invert(24%);
+    -moz-filter: blur(1px) brightness(56%) saturate(103%) contrast(128%) invert(24%);
+    border-radius: 30px 30px 0 0;
+    z-index: -1;
+}
+
+#footer .icons-box svg {
+    font-size: 40px;
+    font-family: vazirNormal;
+    color: #7bbd48;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#footer .icons-box svg:hover {
+    font-size: 50px;
+}
+
+#footer p {
+    color: #dbdbdb;
+}
